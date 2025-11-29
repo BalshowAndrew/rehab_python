@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# directiries
+os_practice/os_homework/
+
