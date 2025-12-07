@@ -10,6 +10,7 @@ class CSVReport:
     def __init__(self, path: str):
         self.path = path
         self.df = pd.read_csv(path)
+        print(f"Я загрузил файл из пути: {self.path}")
     def get_shape(self):
         print(f"В датасете {self.df.shape[0]} строк и {self.df.shape[1]} столбцов")
     def get_columns(self):
